@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="icon" href="css/Icon.png">
+    <title>Js Laboratorio 01</title>
+</head>
+
+<body>
+    <div class="contenedor">
+        <div class="contenedor01">
+            <h1>Calculadora</h1>
+            <hr>
+            <label for="number"> 
+                <p>Ingrese el Número 01 <input type="text" placeholder="Solo Valores Numéricos" id="txt01"></p> 
+            </label>
+
+            <br>
+            <label for="number02"> 
+                <p>Ingrese el Número 02 <input type="text" placeholder="Solo Valores Numéricos" id="txt02"> 
+                </p></label>
+
+            <div class="btn">
+                <div class="btn-fc">
+                    <button id="btn-sumar">Sumar</button>
+
+                    <button id="btn-restar">Restar</button>
+                </div>
+                <hr>
+
+                <div class="btn-sc">
+                    <button id="btn-multiplicar">Multiplicar</button>
+
+                    <button id="btn-dividir">Dividir</button>
+                </div>
+                <hr>
+                <button id="btn-limpiar">Borrar Todo</button>
+
+            </div>
+
+        </div>
+
+
+        <div class="contenedor02">
+
+            <h1>Tabla Dinámica</h1>
+            <hr>
+            <div class="btn">
+                <button class="ver-tabla" onclick="crearTabla()">Ver Tabla</button>
+
+                <div class="cont-tab" id="tabla"></div>
+            </div>
+
+            <hr>
+
+        </div>
+
+
+    </div>
+
+    <footer>
+        <p> Copyright By Nëo
+            <br> 2022 </p>
+    </footer>
+    <script src="javascript.js"></script>
+</body>
+
+</html>
